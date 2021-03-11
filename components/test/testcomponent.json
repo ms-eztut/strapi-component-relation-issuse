@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_test_testcomponents",
+  "info": {
+    "name": "testcomponent",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "files": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "file": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
